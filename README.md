@@ -73,6 +73,14 @@ Data: Bloomberg exports of Dutch TTF futures (not included due to license restri
 
 ---
 
+## Package References
+
+The idea of the Bachelor thesis was also to explore the following two packages
+- [fGarch: GARCH Modelling in R](https://cran.r-project.org/web/packages/fGarch/fGarch.pdf)  
+- [stochvol: Stochastic Volatility in R](https://cran.r-project.org/web/packages/stochvol/stochvol.pdf)
+
+---
+
 ## Notes
 
 * Results are part of my **Bachelor Thesis** (WU Vienna, 2025).
