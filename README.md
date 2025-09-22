@@ -1,7 +1,21 @@
-
 # Volatility Modeling of Dutch TTF Gas Futures
 
 This repository contains the R code and scripts for my **Bachelor Thesis**, focusing on volatility modeling of the Dutch TTF (Title Transfer Facility) natural gas futures market. The project compares **classical GARCH models** with **Bayesian Stochastic Volatility (SV) models** to evaluate volatility dynamics, clustering, and forecasting performance.
+
+---
+
+## Data Description
+
+Dataset: Dutch TTF Daily Gas Futures (Bloomberg export)
+Source: Bloomberg Terminal (ticker: FJSG4 Comdty)
+Frequency: Daily observations
+Period: 01.03.2018 – 19.01.2024
+Currency: EUR
+
+Columns:
+
+* **Dates**: trading day in DD.MM.YYYY format
+* **LAST\_PRICE**: daily closing/futures settlement price
 
 ---
 
@@ -61,6 +75,6 @@ Data: Bloomberg exports of Dutch TTF futures (not included due to license restri
 
 ## Notes
 
-* Results are part of my **Bachelor Thesis** (WU Vienna, 2024).
+* Results are part of my **Bachelor Thesis** (WU Vienna, 2025).
 * Data is not included in this repo due to Bloomberg licensing.
 * Code is provided for replicability and demonstration purposes.
